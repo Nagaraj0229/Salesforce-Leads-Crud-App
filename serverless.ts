@@ -17,6 +17,12 @@ const serverlessConfiguration: AWS = {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
       NODE_OPTIONS: '--enable-source-maps --stack-trace-limit=1000',
       MONGODB_URI: '',
+      SALESFORCE_API_BASE_URL: '',
+      SALESFORCE_CLIENT_ID: '',
+      SALEESFORCE_CLIENT_SECRET: '',
+      SALESFORCE_REFRESH_TOKEN: '',
+      SALESFORCE_API_OBJECT_NAME2: '',
+      SALESFORCE_API_OBJECT_NAME: '',
     },
   },
   // import the function via paths
