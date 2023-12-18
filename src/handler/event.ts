@@ -1,7 +1,7 @@
-import schema from './schema';
+import { helloValidator } from '../handler/validators/hello.validator';
 import { handlerPath } from '@libs/handler-resolver';
 
-export default {
+export const hello = {
   handler: `${handlerPath(__dirname)}/handler.main`,
   events: [
     {
@@ -10,7 +10,7 @@ export default {
         path: 'hello',
         request: {
           schemas: {
-            'application/json': schema,
+            'application/json': helloValidator,
           },
         },
       },
