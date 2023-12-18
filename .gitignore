@@ -10,3 +10,13 @@ jspm_packages
 
 # hintrc
 .hintrc
+
+# environments directories
+.env
+
+#cache
+.eslintcache
+
+
+# vscode
+.vscode
